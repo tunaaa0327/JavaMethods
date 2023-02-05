@@ -1,8 +1,8 @@
-package Methods;
+package Methods.Arrays;
 
 import java.util.*;
 
-public class valueArrayInput {
+public class arrayMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input Number of Items in Array: ");
@@ -12,7 +12,7 @@ public class valueArrayInput {
             System.out.println("Input Array Item "+(i+1)+" : ");
             stringA [i] = sc.nextInt();
         }
-        System.out.print(valueArrayMethods.sumLargeandSmall(stringA));
+        System.out.print(arrayMainMethods.sumLargeandSmall(stringA));
     }
 }
 

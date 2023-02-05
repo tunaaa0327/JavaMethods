@@ -1,4 +1,4 @@
-package Methods;
+package Methods.Arrays;
 import java.util.*;
 
 public class stringArray {

@@ -1,8 +1,8 @@
-package Methods;
+package Methods.Arrays;
 
 import java.util.*;
 
-public class valueArrayMethods {
+public class arrayMainMethods {
 
     static int minArray(int [] array){
         int a=array[1];

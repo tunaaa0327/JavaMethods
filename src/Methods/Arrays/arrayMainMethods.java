@@ -84,7 +84,7 @@ public class arrayMainMethods {
         return c;
     }
 
-    static ArrayList<String> vowelsIf(String [] a){
+    public static ArrayList<String> vowelsIf(String [] a){
         ArrayList<String> word = new ArrayList<>();
         boolean b = false;
         for(int i=0;i<a.length;i++){
@@ -96,7 +96,7 @@ public class arrayMainMethods {
                     break;
                 }else b=false;
             }
-            if(!b) word.add(a[i]);
+            if(b) word.add(a[i]);
         }
         return word;
     }

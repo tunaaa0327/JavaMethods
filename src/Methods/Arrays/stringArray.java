@@ -60,7 +60,7 @@ public class stringArray {
             }
         }
 
-        int reverseNum [] = new int[sizeArray]; 
+        int[] reverseNum = new int[sizeArray];
         for(int i=0;i<sizeArray;i++){
             try{
                 reverseNum [k] = Integer.parseInt(reverseArray(wordArray)[i]);
@@ -88,7 +88,7 @@ public class stringArray {
 
 
 
-    static void inputArray(){
+    public  static void inputArray(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Input Number of Items in Array: ");
         int numArray = sc.nextInt();

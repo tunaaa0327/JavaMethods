@@ -1,5 +1,4 @@
 package Methods;
-
 import java.util.ArrayList;
 
 public class perfectSquare {
@@ -14,7 +13,7 @@ public class perfectSquare {
         System.out.println("Non: "+non);
     }
 
-    static boolean perSquare(int a){
+    public static boolean perSquare(int a){
         for(int i=0;i<=a;i++){
             if(i*i==a) return true;
         }
